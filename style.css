@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 1rem;
+    height: 72vh;
+    width: 50vw;
+    background-color: black;
+    color: white;
+}
+
+main div {
+    display: flex;
+    height: 45%;
+    gap: 1rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.block {
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    background-color: aqua;
+}
+
+.block img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.block p {
+    text-align: center;
+}
